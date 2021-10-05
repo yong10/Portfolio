@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Bootsrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Yong</title>
+</head>
+<body>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Yong</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+
+  <!-- Showcase -->
+  <section class="showcase">
+    <div class="container">
+      <div class="home-area" id="home">
+        <h3 class="main-word1 lh-lg">Hello! I'm</h5>
+        <h1 class="main-word2 lh-lg">Yong Noh,</h1>
+        <h1 class="lh-lg">The <span class="text-animation">Software Deverloper</span></h1>
+      </div>
+      <a class="bi bi-arrow-down-circle h1" id="arrow" href="#about"></a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about py-5" id="about">
+    <div class="container">
+      <div class="about-area container">
+        <div class="text-center" id="about-text">
+          <h5>About</h5>
+          <h1 class="my-4">Personal Info</h1>
+          <h6>Get to know more about me</h6>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg m-5">
+            <h2 class="mb-4">Hello!</h2>
+            <p class="intro">I'm a Full Stack Developer who is ready and able to apply skills that I have acquired. I have hands-on experience creating Front end applications in MERN, Python/Django, and C#/.NET as well as Back-end applications.</p>
+            <a href="Resume/Yong Oh Noh.pdf" target="_blank" rel="noopener noreferrer" class="btn">Resume</a>
+          </div>
+          <div class="col-lg m-5" id="skills-color">
+            <h2 class="mb-4">Skills</h2>
+              <div class="col-lg">
+                <h6>Languages</h6>
+                <div class="row my-3">
+                  <p class=col>JavaScript</p>
+                  <p class=col>Python</p>
+                  <p class=col>C#</p>
+                </div>
+              </div>
+              <div class="col-lg">
+                <h6>Front-end</h6>
+                <div class="row my-3">
+                  <p class=col>HTML</p>
+                  <p class=col>CSS</p>
+                  <p class=col>jQuery</p>
+                  <p class=col>React</p>
+                  <p class=col>Bootstrap</p>
+                </div>
+              </div>
+                <div class="col-lg">
+                <h6>Back-end</h6>
+                <div class="row my-3">
+                  <p class=col>Node.js</p>
+                  <p class=col>Express</p>
+                  <p class=col>Django</p>
+                  <p class=col>.NET</p>
+                  <p class=col>MongoDB</p>
+                  <p class=col>Mongoose</p>
+                  <p class=col>MySQL</p>
+                </div>
+              </div>
+          </div>
+    </div>
+  </section></br>
+
+  <!-- Projects -->
+  <section class="projects py-5 text-center bg-dark" id="projects">
+    <div class="container">
+      <div class="projects-area">
+        <h1 class="text-light" id="projects-text">Projects</h1>
+        <div class="row py-5">
+
+          <div class="col-lg-6">
+            <div class="card m-3">
+              <img class="card-img-top" src="./img/Dstagram.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Dstagram</h5>
+                <p class="card-text">A Full Stack project that one can Login and Register. A user can create a post with a picture that other users can like, save, and leave comments.</p>
+                <div class="row justify-content-center" id="color-text">
+                  <p class="col">Python</p>
+                  <p class="col">Django</p>
+                  <p class="col">SQLite</p>
+                </div>
+                <a href="https://github.com/yong10/Dstagram." target="_blank" rel="noopener noreferrer" class="mx-2"><img src="./img/icons8-github-40.png" alt="Github"></a>
+                <a href="http://34.230.43.184/" target="_blank" rel="noopener noreferrer" class="mx-2"><img src="./img/icons8-geography-40.png" alt="Browser"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card m-3">
+              <img class="card-img-top" src="./img/TravelBuddy.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Travel Buddy</h5>
+                <p class="card-text">A Full Stack project that one can Login and Register. A user can create Travel Plans that other users can join.</p>
+                <div class="row justify-content-center" id="color-text">
+                  <p class="col">Python</p>
+                  <p class="col">Django</p>
+                  <p class="col">SQLite</p>
+                </div>
+                <a href="https://github.com/yong10/travel_buddy" target="_blank" rel="noopener noreferrer" class="mx-2"><img src="./img/icons8-github-40.png" alt="Github"></a>
+                <a href="http://54.167.14.183/" target="_blank" rel="noopener noreferrer" class="mx-2"><img src="./img/icons8-geography-40.png" alt="Browser"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card m-3">
+              <img class="card-img-top" src="./img/DojoActivity.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Activity Center</h5>
+                <p class="card-text">A Full Stack project that one can Login and Register. A user can create Activities that other users can join. The activities can be tracked, edited, and deleted by the creating user.</p>
+                <div class="row justify-content-center" id="color-text">
+                  <p class="col">C#</p>
+                  <p class="col">.Net</p>
+                </div>
+                <a href="https://github.com/yong10/DojoActivity" target="_blank" rel="noopener noreferrer" class="mx-2"><img src="./img/icons8-github-40.png" alt="Github"></a>
+                <a href="http://18.212.118.126/" target="_blank" rel="noopener noreferrer" class="mx-2"><img src="./img/icons8-geography-40.png" alt="Browser"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card m-3">
+              <img class="card-img-top" src="./img/ScheduleManager.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Schedule Manager</h5>
+                <p class="card-text">A Full Stack project than one can create, read, update, and delete a schedule.</p>
+                <div class="row justify-content-center" id="color-text">
+                  <p class="col">MongoDB</p>
+                  <p class="col">Express</p>
+                  <p class="col">React</p>
+                  <p class="col">Node.js</p>
+                </div>
+                <a href="https://github.com/yong10/Schedule_Manager" target="_blank" rel="noopener noreferrer" class="mx-2"><img src="./img/icons8-github-40.png" alt="Github"></a>
+                <a href="http://52.201.218.156/" target="_blank" rel="noopener noreferrer" class="mx-2" class="mx-2"><img src="./img/icons8-geography-40.png" alt="Browser"></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  <!-- Contact -->
+  </section>
+    <div class="contact-area py-5" id="contact">
+      <div class="container">
+        <div class="text-center">
+          <h1 id="contact-text">Get in Touch</h1>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-6 px-5 mb-4 mb-lg-0 mb-md-0 justify-content-center">
+            <div class="row">
+
+              <div class="p-2 my-3 bg-dark">
+                <a href="tel:7036090633" id="contact-icon">
+                  <img src="./img/icons8-phone-60.png" alt="phone" class="mx-3">
+                  703-609-0633
+                </a>
+              </div>
+              
+              <div class="p-2 my-3 bg-dark">
+                <a href="mailto:yongoh.noh@gmail.com" target="_blank" rel="noopener noreferrer" id="contact-icon">
+                    <img src="./img/icons8-email-60.png" alt="location" class="mx-3">
+                    yongoh.noh@gmail.com
+                </a>
+              </div>
+              
+              <div class="p-2 my-3 bg-dark">
+                <a href="https://goo.gl/maps/5dvieF9Q9pwMfRfd6" target="_blank" rel="noopener noreferrer" id="contact-icon">
+                  <img src="./img/icons8-place-marker-60.png" alt="location" class="mx-3">
+                  Annandale, Virginia
+                </a>
+              </div>
+            
+            </div>
+          </div>
+
+          <div class="col-md-6 px-5 justify-content-center" >
+            <form id="contact-form">
+              <label class="form-label">Name:</label>
+              <input type="text" name="user_name" class="form-control">
+              <label class="form-label">Email</label>
+              <input type="email" name="user_email" class="form-control">
+              <label class="form-label">Message</label>
+              <textarea name="message" class="form-control" style="height: 100px;"></textarea>
+              <input class="btn btn-dark my-2" type="submit" value="Send">
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <!-- Email.js -->
+  <script src="script.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+  (function() {
+    emailjs.init("user_oblG7JfC3odz5lpJiSeWb");
+  })();
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse").collapse('hide');
+      });
+    });
+  </script>
+</body>
+</html>
